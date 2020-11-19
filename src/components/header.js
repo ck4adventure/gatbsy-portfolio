@@ -11,22 +11,61 @@ const Header = ({ siteTitle }) => (
   >
     <div
       style={{
-        margin: `0 auto`,
+        display: `flex`,
+        justifyContent: `space-between`,
+        alignItems: `baseline`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        margin: `0 auto`,
       }}
     >
-      <h3 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h3>
+      <div
+        style={{
+          // margin: `0 auto`,
+          padding: `1.45rem 1.0875rem`,
+        }}
+      >
+        <h2 style={{ margin: 0 }}>
+          <Link
+            to="/"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+            }}
+          >
+            {siteTitle}
+          </Link>
+        </h2>
+      </div>
+      <div
+        style={{
+          // margin: `0 auto`,
+          padding: `1.45rem 1.0875rem`,
+          display: "flex",
+        }}
+      >
+        <h6 style={{ margin: 4 }}>
+          <Link
+            to="/quickstarts"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+            }}
+          >
+            Quickstarts
+          </Link>
+        </h6>
+        <h6 style={{ margin: 4 }}>
+          <Link
+            to="/about"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+            }}
+          >
+            About
+          </Link>
+        </h6>
+      </div>
     </div>
   </header>
 )
