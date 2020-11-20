@@ -45,13 +45,13 @@ const Header = ({ siteTitle }) => (
       >
         <h6 style={{ margin: 4 }}>
           <Link
-            to="/quickstarts"
+            to="/dev-skills"
             style={{
               color: `white`,
               textDecoration: `none`,
             }}
           >
-            Quickstarts
+            Dev Skills
           </Link>
         </h6>
         <h6 style={{ margin: 4 }}>

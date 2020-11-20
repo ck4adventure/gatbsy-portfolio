@@ -6,33 +6,33 @@ path: /rails-setup
 
 ## New Rails Project
 
-### Traditional App w/ Views
+#### Rails 6 with Postgres / RSpec / React
 
-`rails new <name> --database=<db>`
-
-### PG / Rails 6 / RSpec / React
-
-#### Set db to postgres
+1. Set db to postgres
 
 `-d=postgresql`
 
-#### Skip default testing
+1. Skip default testing
 
 `-T`
 
-#### Preconfigure for React
+1. Preconfigure for React
 
 `--webpack=react`
 
-#### Skip the coffee script scss
+1. Skip the coffee script scss
 
 `--skip-coffee`
 
-Using `postgresql` (Apr 7, 2020)
+#### OR Traditional App w/ Views
+
+`rails new <name> --database=<db>`
+
+A common option is to also `--skip-turbo-links`
 
 ## Add BDD and testing gems
 
-### Update the Gemfile
+#### Update the Gemfile
 
 ```ru
 group :development, :test do
@@ -79,15 +79,15 @@ group :test do
 end
 ```
 
-### Install new gems
+#### Install new gems
 
 Run `bundle install`
 
-### Install rspec testing
+#### Install rspec testing
 
 Run `rails g rspec:install`
 
-### Install Shoulda Matchers
+#### Install Shoulda Matchers
 
 Place this at the bottom of `spec/rails_helper.rb`:
 
@@ -100,16 +100,16 @@ Shoulda::Matchers.configure do |config|
 end
 ```
 
-### Install cucumber bdd
+#### Install cucumber bdd
 
 Run `rails g cucumber:install`
 
-### Install annotate gem
+#### Install annotate gem
 
 This will set annotate to run automatically and with nicer data
 Run `rails g annotate:install`
 
-### Configure Factory Bot Rails
+#### Configure Factory Bot Rails
 
 If you're using Rails, add the following configuration to `spec/support/factory_bot.rb` and be sure to require that file in `rails_helper.rb`:
 
@@ -121,7 +121,7 @@ end
 
 NB: Or you can paste the whole thing in the bottom of the `rails_helper.rb` ala shoulda-matchers config.
 
-### Configure Database Cleaner
+#### Configure Database Cleaner
 
 Require the database cleaner in your `rails_helper.rb`, probably near where you require rspec at the top.
 
@@ -147,11 +147,12 @@ end
 
 ## Setup DB
 
-### Postgresql
+#### Postgresql
 
-Make sure it's up and running
+Make sure the postgres server is up and running on your local.
 
-### Create the project db
+#### Create the project db
 
-Doing this first can help make sure no errors and connected
+Doing this first can help make sure no errors and connected:
+
 `rails db:create`

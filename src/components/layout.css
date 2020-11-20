@@ -1,7 +1,7 @@
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 112.5%/1.45em georgia, serif, sans-serif;
+  font: georgia, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: verdana, tahoma, sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -18,6 +18,8 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+  /* change font size */
+  font-size: 14px;
 }
 article,
 aside,
@@ -123,7 +125,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -143,7 +145,7 @@ figure {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 hr {
   box-sizing: content-box;
@@ -155,7 +157,7 @@ hr {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: calc(1.45rem - 1px);
+  margin-bottom: calc(1rem - 1px);
   background: hsla(0, 0%, 0%, 0.2);
   border: none;
   height: 1px;
@@ -208,7 +210,7 @@ fieldset {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 legend {
   box-sizing: border-box;
@@ -280,7 +282,7 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -297,7 +299,7 @@ h4 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -314,7 +316,7 @@ h5 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -331,7 +333,7 @@ h6 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -348,29 +350,29 @@ hgroup {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 ul {
-  margin-left: 1.45rem;
+  margin-left: 1rem;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   list-style-position: outside;
   list-style-image: none;
 }
 ol {
-  margin-left: 1.45rem;
+  margin-left: 1rem;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   list-style-position: outside;
   list-style-image: none;
 }
@@ -382,7 +384,7 @@ dl {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 dd {
   margin-left: 0;
@@ -392,7 +394,7 @@ dd {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 p {
   margin-left: 0;
@@ -402,20 +404,20 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 pre {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   font-size: 0.85rem;
   line-height: 1.42;
   background: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
   overflow: auto;
   word-wrap: normal;
-  padding: 1.45rem;
+  padding: 1rem;
 }
 table {
   margin-left: 0;
@@ -425,21 +427,21 @@ table {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   font-size: 1rem;
-  line-height: 1.45rem;
+  line-height: 1rem;
   border-collapse: collapse;
   width: 100%;
 }
 blockquote {
-  margin-left: 1.45rem;
-  margin-right: 1.45rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 form {
   margin-left: 0;
@@ -449,7 +451,7 @@ form {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 noscript {
   margin-left: 0;
@@ -459,7 +461,7 @@ noscript {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 iframe {
   margin-left: 0;
@@ -469,7 +471,7 @@ iframe {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 address {
   margin-left: 0;
@@ -479,7 +481,7 @@ address {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 b {
   font-weight: bold;
@@ -494,23 +496,27 @@ th {
   font-weight: bold;
 }
 li {
-  margin-bottom: calc(1.45rem / 2);
+  margin-bottom: calc(1rem / 2);
 }
 ol li {
   padding-left: 0;
 }
 ul li {
   padding-left: 0;
+  margin-left: 1rem;
 }
 li > ol {
   margin-left: 1.45rem;
-  margin-bottom: calc(1.45rem / 2);
-  margin-top: calc(1.45rem / 2);
+  margin-bottom: calc(1rem / 2);
+  margin-top: calc(1rem / 2);
 }
 li > ul {
   margin-left: 1.45rem;
-  margin-bottom: calc(1.45rem / 2);
-  margin-top: calc(1.45rem / 2);
+  margin-bottom: calc(1rem / 2);
+  margin-top: calc(1rem / 2);
+}
+ul:parent {
+  margin-bottom: 0;
 }
 blockquote *:last-child {
   margin-bottom: 0;
@@ -522,19 +528,19 @@ p *:last-child {
   margin-bottom: 0;
 }
 li > p {
-  margin-bottom: calc(1.45rem / 2);
+  margin-bottom: calc(1rem / 2);
 }
 code {
   font-size: 0.85rem;
-  line-height: 1.45rem;
+  line-height: 1rem;
 }
 kbd {
   font-size: 0.85rem;
-  line-height: 1.45rem;
+  line-height: 1rem;
 }
 samp {
   font-size: 0.85rem;
-  line-height: 1.45rem;
+  line-height: 1rem;
 }
 abbr {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
@@ -599,4 +605,12 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+/* Additonal adds */
+.column-container {
+  display: flex;
+}
+.column {
+  min-width: 400px;
 }
