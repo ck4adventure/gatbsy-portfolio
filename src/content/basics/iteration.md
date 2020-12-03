@@ -2,6 +2,7 @@
 path: /basics/iteration
 date: 2020-11-23
 title: Basics - Iteration
+category: basics
 ---
 
 ## While

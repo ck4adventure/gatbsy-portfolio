@@ -2,6 +2,7 @@
 title: Basics - Sorts
 path: /basics/sorting
 date: 2020-11-23
+category: basics
 ---
 
 ## Bubble Sort

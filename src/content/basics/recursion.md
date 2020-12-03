@@ -2,6 +2,7 @@
 path: /basics/recursion
 title: Basics - Recursion
 date: 2020-11-24
+category: basics
 ---
 
 ### EXERCISE 1

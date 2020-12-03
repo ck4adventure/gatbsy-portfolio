@@ -1,7 +1,8 @@
 ---
 title: Rails Models
 date: 2020-10-10
-path: /rails-models
+path: /rails/rails-models
+category: rails
 ---
 
 ## Models and Migrations

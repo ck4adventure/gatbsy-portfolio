@@ -1,7 +1,8 @@
 ---
 title: JS DOM Access
 date: 2020-11-24
-path: /js-dom
+path: /javascript/js-dom
+category: javascript
 ---
 
 ### Most common query methods to access a part of the DOM

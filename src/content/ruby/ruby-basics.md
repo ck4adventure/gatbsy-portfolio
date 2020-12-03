@@ -1,7 +1,8 @@
 ---
 title: Ruby Review
 date: 2020-05-04 14:27 -0700
-path: /ruby-basics
+path: /ruby/ruby-basics
+category: ruby
 ---
 
 Ruby Review

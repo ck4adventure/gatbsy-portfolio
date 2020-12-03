@@ -1,7 +1,8 @@
 ---
 title: Rails Setup
 date: 2020-10-10
-path: /rails-setup
+path: /rails/rails-setup
+category: rails
 ---
 
 ## New Rails Project

@@ -2,6 +2,7 @@
 title: Language Comparison Chart
 date: 2020-11-24
 path: /lang-compare
+category: basics
 ---
 
 <h1>Language Comparison Chart</h1>

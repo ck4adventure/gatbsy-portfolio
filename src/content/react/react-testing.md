@@ -1,7 +1,8 @@
 ---
 date: 2020-10-26
 title: Testing Components
-path: /react-testing
+path: /react/react-testing
+category: react
 ---
 
 # Testing Setup

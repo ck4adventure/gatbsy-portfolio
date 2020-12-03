@@ -1,7 +1,8 @@
 ---
 title: React Redux
 date: 2020-10-16
-path: /react-redux
+path: /react/react-redux
+category: react
 ---
 
 # Adding Redux
