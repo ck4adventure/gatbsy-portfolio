@@ -1,7 +1,8 @@
 ---
 title: React Setup
 date: 2020-10-14
-path: /react-setup
+path: /react/react-setup
+category: react
 ---
 
 # With Rails 6

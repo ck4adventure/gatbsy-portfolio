@@ -1,7 +1,8 @@
 ---
 title: Rails Routes
 date: 2020-10-10
-path: /rails-routes
+path: /rails/rails-routes
+category: rails
 ---
 
 ## Rails Routing

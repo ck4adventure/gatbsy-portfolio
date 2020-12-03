@@ -1,7 +1,8 @@
 ---
 title: Routing with React
-path: /react-routes
+path: /react/react-routes
 date: 2020-10-18
+category: react
 ---
 
 ## Wrap App with Provider and Hash Router

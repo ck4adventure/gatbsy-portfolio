@@ -2,6 +2,7 @@
 date: 2020-10-20
 title: CSS Basic Reset
 path: /css-reset
+category: css
 ---
 
 #### Basic CSS Reset

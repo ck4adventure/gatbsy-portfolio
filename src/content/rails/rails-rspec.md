@@ -1,7 +1,8 @@
 ---
 title: RSpec
 date: 2020-10-12
-path: /rails-rspec
+path: /rails/rails-rspec
+category: rails
 ---
 
 ## Rspec Reference

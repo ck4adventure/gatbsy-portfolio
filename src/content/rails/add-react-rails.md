@@ -1,7 +1,8 @@
 ---
 title: Adding React to Rails
-path: /add-react-rails
+path: /rails/add-react-rails
 date: 2020-10-16
+category: rails
 ---
 
 # Adding a React Framework on top of Rails Backend
